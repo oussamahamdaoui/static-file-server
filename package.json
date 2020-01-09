@@ -1,0 +1,15 @@
+{
+  "name": "light-invoice-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "ssh root@dippper.com \"bash -s\" < deploy.sh",
+    "push-files": ""
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
